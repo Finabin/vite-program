@@ -1,0 +1,184 @@
+.login-container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    .login-other {
+        position: absolute;
+        bottom: 0;
+        left: 25%;
+        color: #ccc;
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .login-func-change {
+        position: absolute;
+        right: 2%;
+        top: 2%;
+        color: orange;
+        font-size: 14px;
+        z-index: 2;
+    }
+
+    .login-wechat-scanner-box {
+        position: absolute;
+        top: 5%;
+        left: 0;
+        width: 40%;
+        height: 85%;
+        background-color: #fff;
+        align-items: center;
+        justify-content: center;
+        border-right: 1px solid #ccc;
+        z-index: 2;
+        // cursor: pointer;
+        // transition: all 0.3s ease-in-out;
+        // &:hover {
+        //     transform: scale(1.1);
+        // }
+        .login-wechat-scanner-title {
+            margin: 15% 25%;
+            letter-spacing: 8px;
+            font-size: 24px;
+        }
+
+        .login-wechat-scanner {
+            margin: 0 20%;
+            border: 1px solid #000;
+            border-radius: 2px;
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    .login-box {
+        position: absolute;
+        top: 0;
+        left: 40%;
+        width: 60%;
+        height: 100%;
+        background-color: #fff;
+        align-items: center;
+        justify-content: center;
+
+        .login-title {
+            margin-top: 10%;
+            margin-left: 5%;
+            margin-right: 5%;
+            letter-spacing: 2px;
+            font-size: 18px;
+            border: none;
+            background-color: #fff;
+            border-bottom: 1px solid #000;
+            color: #000;
+            cursor: pointer;
+
+            &:hover {
+                margin-top: 10%;
+                margin-left: 5%;
+                margin-right: 5%;
+                letter-spacing: 2px;
+                font-size: 18px;
+                border: none;
+                background-color: #fff;
+                border-bottom: 1px solid orange;
+                color: orange;
+                cursor: pointer;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+
+        .login-title-active {
+            margin-top: 10%;
+            margin-left: 5%;
+            margin-right: 5%;
+            letter-spacing: 2px;
+            font-size: 18px;
+            border: none;
+            background-color: #fff;
+            border-bottom: 1px solid orange;
+            color: orange;
+        }
+
+        .login-input {
+            margin: 5% 5%;
+            width: 70%;
+            height: 30px;
+            border: none;
+            padding-left: 10px;
+            font-size: 14px;
+            border-bottom: 1px solid #000;
+
+            &:focus {
+                outline: none;
+                border-bottom: 1px solid orange;
+            }
+        }
+
+
+        .login-checkbox {
+            margin: 5% 5%;
+            width: 90%;
+            height: 30px;
+            border: 1px solid #000;
+            border: none;
+            padding-left: 10px;
+            font-size: 14px;
+        }
+
+        .login-checkbox-link {
+            color: orange;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+
+            &:hover {
+                color: #000;
+                transition: all 0.3s ease-in-out;
+            }
+
+            margin-left: 2px;
+        }
+
+        .login-box-button {
+            margin: 0 5%;
+            width: 90%;
+            height: 35px;
+            padding-left: 10px;
+            border: none;
+            font-size: 14px;
+            background-color: orange;
+            letter-spacing: 10px;
+            color: #fff;
+            cursor: pointer;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .register-input {
+            margin: 3% 5%;
+            width: 70%;
+            height: 30px;
+            border: none;
+            padding-left: 10px;
+            font-size: 14px;
+            border-bottom: 1px solid #000;
+
+            &:focus {
+                outline: none;
+                border-bottom: 1px solid orange;
+            }
+        }
+    }
+}
